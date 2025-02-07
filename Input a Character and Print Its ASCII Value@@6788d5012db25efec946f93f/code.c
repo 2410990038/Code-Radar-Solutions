@@ -2,9 +2,10 @@
 
 
 int main() {
-    char A[65];
-    scanf("%c\n",&A[65]);
-    printf("ASCII value : %c\n",A[65]);
+    char A;
+    ASCII value: 65;
+    scanf("%c\n",&A);
+    printf("ASCII value : %c\n",A);
  
     return 0;
 }
