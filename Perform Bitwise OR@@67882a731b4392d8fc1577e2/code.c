@@ -3,9 +3,8 @@
 
 int main() {
     int x,y;
-    scanf("%d %d", &x, &y);
-    if (x|y) {
-        printf("%d",x)
-    }
+    printf("the value of x or y is x|y");
+    scanf("%d",x);
+    
     return 0;
 }
