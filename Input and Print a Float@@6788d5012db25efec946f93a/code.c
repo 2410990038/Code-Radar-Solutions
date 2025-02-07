@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int number;
+    float number;
     printf("Enter an integer: ");
     scanf("%d", &number);
     printf("You entered: %d\n", number);  // Print the value, not the address
