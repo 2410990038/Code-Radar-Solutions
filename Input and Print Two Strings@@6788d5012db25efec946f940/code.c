@@ -5,7 +5,7 @@
 int main() {
     char a[100],b[100];
     scanf("%c\n",&string);
-    printf("You entered: %s\n",a);
+    printf("You entered: %s\n",a[100]);
     
     return 0;
 }
