@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 int main() {
-    float number;
-    printf("Enter an integer: ");
-    scanf("%f", &number);
-    printf("You entered: %f\n", number);  // Print the value, not the address
-    scanf("%f", &number);  // There's no need for a newline character here
-
-    return 0;
+   float number;
+   printf("enter a floating-point number:");
+   scanf("%f",&number);
+   printf("you entered:%.2f\n", number);
+   return 0;
 }
