@@ -5,12 +5,12 @@ int main() {
     int x;
     scanf("%d",&x);
     if (x>0) {
-        printf("%d: Positive",x);
+        printf("%d is Positive",x);
     
     } else if (x<0) {
-        printf("%d: Negative",x);
+        printf("%d is Negative",x);
     } else (x=0) {
-        printf("%d: Zero",x);
+        printf("%d is Zero",x);
     }
   
     return 0;
