@@ -3,14 +3,13 @@
 int main() {
     int x, y;
 
-    // Input two numbers
+
     scanf("%d %d", &x, &y);
-    
-    // Compare the numbers and print the greater one
+
     if (x > y) {
-        printf("%d is greater.\n", x);
+        printf("%d", x);
     } else if (y > x) {
-        printf("%d is greater.\n", y);
+        printf("%d", y);
     } else {
         printf("Both numbers are equal.\n");
     }
