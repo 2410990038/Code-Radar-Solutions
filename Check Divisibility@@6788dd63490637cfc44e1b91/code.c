@@ -7,8 +7,7 @@ int main() {
     scanf("%d",&x );
     if (x/5==0 || x/11==0) {
         printf("Divisible",x);
-    } else {
-        printf("Not Divisble");
+    
 
     }
     
