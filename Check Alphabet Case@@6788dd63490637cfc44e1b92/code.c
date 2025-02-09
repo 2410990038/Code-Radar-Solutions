@@ -3,15 +3,15 @@
 
 
 int main() {
-    char a;
-    scanf("%c",&a);
-    if (isupper(a)) {
-        printf("Uppercase",a);
-    } else if (islower(a)) {
-        printf("Lowercase",a);
+    char char;
+    scanf("%c",&c);
+    if (isupper(c)) {
+        printf("Uppercase",c);
+    } else if (islower(c)) {
+        printf("Lowercase",c);
 
     } else {
-        printf("Not an alphabet",a);
+        printf("Not an alphabet",c);
     }
 
     return 0;
