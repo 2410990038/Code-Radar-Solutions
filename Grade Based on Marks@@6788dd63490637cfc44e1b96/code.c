@@ -8,9 +8,9 @@ int main() {
         printf("A");
     } else if (x>=80 && x < 90) {
         printf("B\n");
-    } else if (x>=70 && x<80) {
+    } else if (x>=70 && x < 80) {
         printf("C\n");
-    } else if (x>=60 && x<70) {
+    } else if (x>=60 && x < 70) {
         printf("D\n");
     } else {
         printf("F\n");
