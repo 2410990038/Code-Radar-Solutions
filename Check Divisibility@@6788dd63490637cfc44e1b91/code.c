@@ -8,7 +8,7 @@ int main() {
     if (x/5==0) {
         printf("Divisible",x);
     } else if (y/11==0) {
-        printf("Divisible",y);
+        printf(" Not Divisible",y);
     }
   
     
