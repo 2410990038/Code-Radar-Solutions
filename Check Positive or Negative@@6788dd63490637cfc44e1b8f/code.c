@@ -8,11 +8,11 @@ int main() {
     
    
     if (x > 0) {
-        printf("%d\n", x);
+        printf("%d\n: Positive", x);
     } else if (x < 0) {
-        printf("%d\n", x);
+        printf("%d\n: Negative", x);
     } else {
-        printf("%d\n", x);
+        printf("%d\n: Zero", x);
     }
 
     return 0;
