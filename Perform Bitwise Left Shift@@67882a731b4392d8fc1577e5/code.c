@@ -7,7 +7,7 @@ int main() {
     scanf("%d %d", &x, &y);
     
     // Perform bitwise left shift by 1 on both x and y and print the results
-    printf("%d %d\n", (x << 1), (y << 1));
+    printf("%d", (x << 1), (y << 1));
     
     return 0;
 }
