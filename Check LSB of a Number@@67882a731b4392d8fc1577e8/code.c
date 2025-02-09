@@ -6,7 +6,7 @@ int main() {
     int x;
     scanf("%d",&x);
     if (x&1) {
-        printf("%d\n,Set");
+        printf("Set");
     } else {
         printf("Not Set");
     }
