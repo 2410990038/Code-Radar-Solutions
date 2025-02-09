@@ -8,9 +8,9 @@ int main() {
         printf("%d: Positive",x);
     
     } else if (x<0) {
-        printf("Negative",x);
+        printf("%d: Negative",x);
     } else (x=0) {
-        printf("Zero",x);
+        printf("%d: Zero",x);
     }
   
     return 0;
