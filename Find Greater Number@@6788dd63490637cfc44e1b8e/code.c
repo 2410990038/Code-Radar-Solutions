@@ -11,7 +11,7 @@ int main() {
     } else if (y > x) {
         printf("%d", y);
     } else {
-        printf("Both numbers are equal.\n");
+        printf("0");
     }
 
     return 0;
