@@ -6,6 +6,8 @@ int main() {
     scanf("%d",&x,&y);
     if (a%b==0 && b!=0) {
         printf("Yes");
+    } else  if (b==0) {
+        printf("Yes");
     } else {
         printf("No");
     }
