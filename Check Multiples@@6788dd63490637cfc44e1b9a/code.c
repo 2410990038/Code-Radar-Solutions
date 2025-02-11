@@ -7,7 +7,7 @@ int main() {
     if (y != 0 && x %y == 0) {
         printf("Yes");
     } else  if (y == 0) {
-        printf("Yes");
+        printf("No");
     } else {
         printf("No");
     }
