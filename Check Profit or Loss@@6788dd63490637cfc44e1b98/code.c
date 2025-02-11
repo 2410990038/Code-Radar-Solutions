@@ -4,9 +4,9 @@
 int main() {
     int x,y;
     scanf("%d %d",&x , &y);
-    if (selling price>cost price) {
+    if (x>y) {
         printf("Profit");
-    } else if ("cost price>selling price") {
+    } else if ("y>x") {
         printf("Loss");
     } else {
         printf("No Profit No Loss");
