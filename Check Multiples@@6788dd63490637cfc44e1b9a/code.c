@@ -4,9 +4,9 @@
 int main() {
     int x,y;
     scanf("%d",&x,&y);
-    if (y!=0 && x%y==0) {
+    if (y != 0 && x %y == 0) {
         printf("Yes");
-    } else  if (x==0) {
+    } else  if (y == 0) {
         printf("Yes");
     } else {
         printf("No");
