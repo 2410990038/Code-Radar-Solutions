@@ -2,7 +2,8 @@
 
 
 int main() {
-    int x= selling price,y=cost price;
+    int x= selling price;
+    int y=cost price;
     scanf("%d %d",&x , &y);
     if (selling price>cost price) {
         printf("Profit",x);
