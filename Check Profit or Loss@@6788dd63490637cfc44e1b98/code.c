@@ -6,9 +6,9 @@ int main() {
     int y=cost price;
     scanf("%d %d",&x , &y);
     if (selling price>cost price) {
-        printf("Profit",x);
+        printf("Profit");
     } else if ("cost price>selling price") {
-        printf("Loss",y);
+        printf("Loss");
     } else {
         printf("No Profit No Loss");
     }
