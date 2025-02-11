@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int x, y; // x for selling price, y for cost price
-    scanf("%d %d", &x, &y); // Input selling price and cost price
+    int x, y; 
+    scanf("%d %d", &x, &y); 
 
     if (x > y) {
-        printf("Profit\n"); // Selling price is greater than cost price
+        printf("Profit\n"); 
     } else if (x < y) {
-        printf("Loss\n"); // Cost price is greater than selling price
+        printf("Loss\n");
     } else {
-        printf("No Profit No Loss\n"); // Selling price equals cost price
+        printf("No Profit No Loss\n"); 
     }
 
     return 0;
