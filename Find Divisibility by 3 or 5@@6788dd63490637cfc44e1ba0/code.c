@@ -9,7 +9,7 @@ int main() {
     } else if (x%5==0) {
         printf("Divisible");
     } else {
-        printf("Neither");
+        printf("Not Divisible");
     }
     return 0;
 }
